@@ -48,7 +48,7 @@
 
 <div class="grig">
     <div class="col mt-2">
-        <p-table [value]="heroes">
+        <p-table [value]="heroes | slice:0">
             <ng-template pTemplate="header">
                 <tr>
                     <th pSortableColumn="nombre">Nombre
